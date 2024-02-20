@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <td valign="middle">
+            <ul>
+                <li><a href="C:\Users\ELVIA\Desktop\Ventana_inicio.html">Inicio</a></li>
+                <li><a href="C:\Users\ELVIA\Desktop\Ventana_registro.html">Registro</a></li>
+                <li><a href="C:\Users\ELVIA\Desktop\Ventana_acerca.html">Acerca</a></li>
+              </ul>
+          </td>
+          
+          <td>
+            <h1>REGISTRO</h1>
+            <hr>
+            <p>¿Te interesa inscribirse en nuestro curso?</p>
+            <form action="mailto:hectorsotelogomez@gmail.com?subject=Registro" method="post" enctype="text/plain">
+                
+            <table border="1">
+                <tr>
+                    <td>Nombre</td> 
+                    <td> <input type="text" name="nombre" placeholder="Ingresa tu nombre" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" placeholder="Ingresa tu correo" required></td>
+                </tr>
+                <tr>
+                    <td>Nivel de estudio:</td>
+                    <td>  <select id="selecciones" name="selecciones">
+                          <option value="Profesor">Profesor</option>
+                          <option value="Estudiante de doctorado">Estudiante de doctorado</option>
+                          <option value="Estudiante de maestrea">Estudiante de maestrea</option>
+                          <option value="Estudiante de licenciatura">Estudiante de licenciatura</option></td>
+                </tr>
+                <tr>
+                    <td>Comentario</td>
+                    <td><textarea id="comentario" name="comentario" rows="5" cols="33" placeholder="Pon tu comentario" required></textarea>
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+          </td>
+        </tr>
+      </table>
+    
+   
+</body>
+</html>
